@@ -1,6 +1,6 @@
-SSO(def): [RFC 6749] SSO is an authentication process that allows a user to access multiple applications with one set of login 
-          credentials
-Dr.Seo: (Technology, Policy, Standard, Product)
+SSO(def): [RFC 6749] SSO is an authentication process that allows a user to access multiple 
+applications with one set of login credentials
+--------------------Dr.Seo: [Technology, Policy, Standard, Product]
 
 Authentication:The process of verifying a claim that a system entity or
                system resource has a certain attribute value.
@@ -16,7 +16,33 @@ An authentication process consists of two basic steps:
  OAuth 2.0: authorization framework enables a third-party
             application to obtain limited access to an HTTP service,
  
- cookie: 
+ $ resource owner: An entity capable of granting access to a protected resource.
+ When the resource owner is a person, it is referred to as an end-user. (User)
+ $ client: An application making protected resource requests on behalf of the
+ resource owner and with its authorization. (NYT)
+ $ resource server: The server hosting the protected resources, capable of accepting
+ and responding to protected resource requests using access tokens. (Google DB)
+ $ authorization server: The server issuing access tokens to the client after successfully
+ authenticating the resource owner and obtaining authorization. (Google)
+ $ authorization grant:a credential representing the resource owner's 
+ authorization (to access its protected resources) used by the
+ client to obtain an access token.  This specification defines four
+ grant types -- authorization code, implicit, resource owner password
+ credentials, and client credentials
+ $ redirect URL: During a user's authentication, the redirect_uri request 
+ parameter is used as a callback URL. This is where your application 
+ will receive and process the response from Auth0, and where the users will 
+ be redirected, once the authentication is complete.
+ $ access token:credentials used to access protected resources.  An
+ access token is a string representing an authorization issued to the
+ client.  The string is usually opaque to the client.  Tokens
+ represent specific scopes and durations of access, granted by the
+ resource owner, and enforced by the resource server and authorization
+ server
+ 
+ $ cookie: /HTTP/ Data exchanged between an HTTP server and a browser
+      (a client of the server) to store state information on the client
+      side and retrieve it later for server use.
  
  OAuth consideration for develops: Standards, specifications, grant types, JWT,
                                    scopes and timeouts
