@@ -1,5 +1,6 @@
-SSO(def): SSO is an authentication/ authorization process that allows a user to access multiple applications with one set of login 
+SSO(def): [RFC 6749] SSO is an authentication process that allows a user to access multiple applications with one set of login 
           credentials
+Dr.Seo: (Technology, Policy, Standard, Product)
 
 Authentication:The process of verifying a claim that a system entity or
                system resource has a certain attribute value.
@@ -11,4 +12,16 @@ An authentication process consists of two basic steps:
          information (e.g., a value signed with a private key) that acts
          as evidence to prove the binding between the attribute and that
          for which it is claimed (user). 
-         
+ 
+ OAuth 2.0: authorization framework enables a third-party
+            application to obtain limited access to an HTTP service,
+ 
+ cookie: 
+ 
+ OAuth consideration for develops: Standards, specifications, grant types, JWT,
+                                   scopes and timeouts
+
+RFC 7522: Security Assertion Markup Language (SAML) 2.0 Profile
+      for OAuth 2.0 Client Authentication and Authorization Grants
+----------------------------------------------------------------------------
+Desktop_processor: Intel64 Family 6 Model 94 Stepping 3 GenuineIntel ~3408 Mhz
