@@ -1,4 +1,4 @@
-SSO(def): SSO is an authentication process that allows a user to access multiple applications with one set of login 
+SSO(def): SSO is an authentication/ authorization process that allows a user to access multiple applications with one set of login 
           credentials
 
 Authentication:The process of verifying a claim that a system entity or
