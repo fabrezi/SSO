@@ -39,6 +39,8 @@ An authentication process consists of two basic steps:
  represent specific scopes and durations of access, granted by the
  resource owner, and enforced by the resource server and authorization
  server
+ $ scopes:
+ $ consent: 
  
  $ cookie: /HTTP/ Data exchanged between an HTTP server and a browser
       (a client of the server) to store state information on the client
