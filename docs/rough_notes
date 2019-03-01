@@ -2,6 +2,8 @@ SSO(def): [RFC 6749] SSO is an authentication process that allows a user to acce
 applications with one set of login credentials
 --------------------Dr.Seo: [Technology, Policy, Standard, Product]
 
+SSO comes under teh flag of Identity and access management (IAM). 
+
 Authentication:The process of verifying a claim that a system entity or
                system resource has a certain attribute value.
                
