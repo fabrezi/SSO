@@ -41,10 +41,16 @@ An authentication process consists of two basic steps:
  server
  $ scopes:
  $ consent: 
- 
+ $ authentication: The process of verifying a claim that a system entity or
+ system resource has a certain attribute value. [in OAuth: Authorization server authenticates the resource owner]
+ $ authorization: An approval that is granted to a system entity to access a
+ system resource. [in OAuth: the resource owner authorizes the client to access resource server]
  $ cookie: /HTTP/ Data exchanged between an HTTP server and a browser
-      (a client of the server) to store state information on the client
-      side and retrieve it later for server use.
+ (a client of the server) to store state information on the client
+ side and retrieve it later for server use.
+ $ bearer token: A security token with the property that any party in possession of
+ the token (a "bearer") can use the token in any way that any other party in possession of it can.  
+ Using a bearer token does not require a bearer to prove possession of cryptographic key material(proof-of-possession).
  
  OAuth consideration for develops: Standards, specifications, grant types, JWT,
                                    scopes and timeouts
