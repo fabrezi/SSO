@@ -2,12 +2,19 @@ SSO(def): [RFC 6749] SSO is an authentication process that allows a user to acce
 applications with one set of login credentials
 --------------------Dr.Seo: [Technology, Policy, Standard, Product]
 
-SSO comes under teh flag of Identity and access management (IAM). 
+SSO comes under teh flag of Identity and access management (IAM). Main parts of IAM are:
+1. Identity lifecycle management: All identities need to be created somehow, maintained over time (for example, job title changes when you get promoted), 
+and retired when people leave your organization
+2. Connectors for data collections:In this case, the data needed is very specific: identities, their 
+attributes, and access.
+3. Password Management: Nobody wants to remember dozens of different passwords and change all of them every 90 days, 
+so identity governance and administration products help you manage them.
+4. Access Request workflows: ....
+further deatils present on:  https://medium.com/@graphidentity/what-is-identity-governance-and-administration-iga-fcb04b3e727a
 
 Authentication:The process of verifying a claim that a system entity or
                system resource has a certain attribute value.
-               
-An authentication process consists of two basic steps:
+               An authentication process consists of two basic steps:
       -  Identification step: Presenting the claimed attribute value
          (e.g., a user identifier) to the authentication subsystem.
       -  Verification step: Presenting or generating authentication
