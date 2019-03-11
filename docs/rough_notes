@@ -70,7 +70,9 @@ anything that uses kerberos service is a client
 rlogin is not secure from eavesdropping or packet sniffing attack. also it doesn't provide user authentication.
 masquearade attack
 Who should be trusted in the netwrok: 1) trust kerberos  2) user trust works station
-$ ticket: a record tha authenticate client to server. it contains: client identity, session key, timestamp
+$ ticket: a record that helps authenticate client to server. it contains: client identity, session key, timestamp
+$ KDC: a netwrok service that supplies tickets and temporary session keys. 
+$ secret key: an encryption key shared by a prinicipal and the KDC, in case of humnas, it is the password
 
 
 
