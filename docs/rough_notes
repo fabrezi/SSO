@@ -60,11 +60,17 @@ Authentication:The process of verifying a claim that a system entity or
  $ bearer token: A security token with the property that any party in possession of
  the token (a "bearer") can use the token in any way that any other party in possession of it can.  
  Using a bearer token does not require a bearer to prove possession of cryptographic key material(proof-of-possession).
- 
- OAuth consideration for develops: Standards, specifications, grant types, JWT,
-                                   scopes and timeouts
-
-RFC 7522: Security Assertion Markup Language (SAML) 2.0 Profile
-      for OAuth 2.0 Client Authentication and Authorization Grants
 ----------------------------------------------------------------------------
-Desktop_processor: Intel64 Family 6 Model 94 Stepping 3 GenuineIntel ~3408 Mhz
+Kerberos Protocol
+Kerberos(def): provides a means of verifying the identities of principals,(e.g., a workstation user or a network server) on an open
+(unprotected) network.
+How unprotected is the network?
+Needham–Schroeder protocol-------------future work
+anything that uses kerberos service is a client
+rlogin is not secure from eavesdropping or packet sniffing attack. also it doesn't provide user authentication.
+masquearade attack
+Who should be trusted in the netwrok: 1) trust kerberos  2) user trust works station
+$ ticket: a record tha authenticate client to server. it contains: client identity, session key, timestamp
+
+
+
