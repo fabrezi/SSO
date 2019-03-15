@@ -75,6 +75,11 @@ $ KDC: a netwrok service that supplies tickets and temporary session keys.
 $ secret key: an encryption key shared by a prinicipal and the KDC, in case of humnas, it is the password
 $ authenticator: a record containing information that can be shown to have been recently generated using the session
 key known only by the client and server. it is created everytime new request is made.
+----------------------
+version4 weaknesses: 
+1. offline password attack
+2. DES encryption-- PCBC
+
 
 
 
